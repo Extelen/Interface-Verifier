@@ -1,0 +1,18 @@
+{
+    "name": "InterfaceVerifier.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:83ecdac0f85b2404187761605fd54ab6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

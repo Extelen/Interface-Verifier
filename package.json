@@ -1,0 +1,13 @@
+{
+  "name": "com.tellory.framework.interfaceverifier",
+  "displayName": "Interface Verifier",
+  "description": "The Interface Verifier is a Unity Editor tool that helps you ensure that your classes correctly implement the interfaces they claim to implement.",
+  "version": "0.0.1",
+  "unity": "6000.0",
+  "unityRelease": "58f1",
+  "author": {
+    "name": "Rodrigo Saguer",
+    "email": "extelendev@gmail.com",
+    "url": "https://github.com/Extelen"
+  }
+}
