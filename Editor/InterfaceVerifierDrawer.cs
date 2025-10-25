@@ -94,6 +94,15 @@ internal class InterfaceVerifierDrawer : PropertyDrawer
     /// </summary>
     private Type GetInterfaceType(Type fieldType)
     {
+        // Handle arrays
+        if (fieldType.IsArray)
+            fieldType = fieldType.GetElementType();
+
+        // Handle lists
+        if (fieldType.IsGenericType && fieldType.GetGenericTypeDefinition() == typeof(System.Collections.Generic.List<>))
+            fieldType = fieldType.GetGenericArguments()[0];
+
+        // Get InterfaceVerifier<T> generic argument
         if (fieldType.IsGenericType)
         {
             Type[] genericArgs = fieldType.GetGenericArguments();
