@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-[Serializable]
+[System.Serializable]
 public class InterfaceVerifier<T> where T : class
 {
     // Fields
